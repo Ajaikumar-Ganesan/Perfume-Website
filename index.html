@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfumes</title>
+     <link rel="stylesheet" href="./styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body style="font-family: Cormorant Garamond">
+    <marquee  behavior="smooth" direction="right" class="bg-dark text-light text-center" id="mark">----Discount 10%--Authenticity Guarantee----</marquee>
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid ">
+    <a class="navbar-brand ms-5" href="#">
+      <img src="./img/nav-logo.avif" class="w-50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6 gap-4 fw-bolder">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="./men.html">Men</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " id="active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gift Sets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Brands</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./item.html">Sale</a>
+        </li>
+      
+      </ul>
+      <div class="icons d-flex gap-3 me-4" style="list-style: none; ">
+           
+                 <li>
+              <a href="./login.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+</svg></a>
+            </li>
+
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg></a>
+            </li>
+
+            <li>
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg></a>
+            </li>
+
+            <li>
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg></a>
+            </li>
+     
+      </div>
+          
+
+          </li>
+     
+    </div>
+  </div>
+</nav>
+
+<!--navbar end-->
+
+<!--corosel start-->
+
+<div id="carouselExampleCaptions" class="carousel slide">
+ 
+  <div class="carousel-inner  carousel-inner1">
+    
+     <div class="carosel-text position-absolute top-25 col-md-6  col-sm-6">
+      <p class="fs-6 text-info fw-bolder ">BRANDSPOTLIGHT</p>
+          <p class="text-danger fs-1  ">Christian Louboutin</p>
+
+        <h5 class="my-4 fs-6 text-center1 "><a  id="btn2" href="">SHOP NOW</a></h5>
+       
+     </div>
+
+  
+
+    <div class="carousel-item active">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!----card start-->
+    <div class="card-background">
+    
+    
+  <p class=" text-center mt-5">Our Bestsellers</p>
+   <div class="card-head d-flex gap-4 justify-content-center fs-3">
+    <p id="card-men">FOR HER</p>
+    <P>FOR HIM</P>
+
+   </div>
+<!--card-1-->
+<div class="card-main  d-flex justify-content-center gap-4 flex-wrap ">
+<div class="card card-item border border-0 " style="width: 15rem;">
+  <img src="./img/card-img1.webp" class="card-img-top bg-none" id="card-img1" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center">
+       <p>Bestseller</p>
+  </div>
+  <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary " id="review1">
+       <p>Soldout</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal EDT</h5>
+    <p class="card-text">From RS.900</p>
+  </div>
+</div>
+<!---card-2-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img2.webp" class="card-img-top" id="card-img1" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div>
+  <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Bright Crystal </h5>
+    <p class="card-text">From RS.900</p>
+  </div>
+</div>
+<!---card-3-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img3.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 "> Crystal Absolu EDP</h5>
+    <p class="card-text">From RS.1000</p>
+  </div>
+</div>
+<!---card-4-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img4.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <!-- <div class="card-review position-absolute text-light ps-1 mt-4 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div> -->
+
+  <div class="card-review position-absolute text-light w-25 mt-3 text-center bg-success ms-3" id="review1">
+       <p>SALES</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Dylan Blue EDP For Her</h5>
+    <p class="card-text">From RS.900</p>
+  </div>
+</div>
+
+<!---card-5-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img5.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <!-- <div class="card-review position-absolute text-light ps-1 mt-4 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div> -->
+
+  <div class="card-review position-absolute text-light w-25 mt-3 text-center bg-info ms-3" id="review1">
+       <p>Trending</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Dylan Blue EDP For Her</h5>
+    <p class="card-text">From RS.1000</p>
+  </div>
+</div>
+<!---card-6-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img6.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <!-- <div class="card-review position-absolute text-light ps-1 mt-4 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div> -->
+
+  <div class="card-review position-absolute text-light w-25 mt-3 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Dylan Blue EDP For Her</h5>
+    <p class="card-text">From RS.500</p>
+  </div>
+</div>
+<!---card-7-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img7.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <!-- <div class="card-review position-absolute text-light ps-1 mt-4 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div> -->
+
+  <div class="card-review position-absolute text-light w-25 mt-3 text-center bg-success ms-3" id="review1">
+       <p>SALES</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 "> Blue EDP For Her</h5>
+    <p class="card-text">From RS.999</p>
+  </div>
+</div>
+<!---card-8-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img8.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <!-- <div class="card-review position-absolute text-light ps-1 mt-4 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div> -->
+
+  <div class="card-review position-absolute text-light w-25 mt-3 text-center bg-info ms-3" id="review1">
+       <p>Tranding</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Dylan Blue EDP For Her</h5>
+    <p class="card-text">From RS.1500</p>
+  </div>
+</div>
+<!---card-9-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img9.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <!-- <div class="card-review position-absolute text-light ps-1 mt-4 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div> -->
+
+  <div class="card-review position-absolute text-light w-25 mt-3 text-center bg-success ms-3" id="review1">
+       <p>SALES</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Dylan Blue EDP For Her</h5>
+    <p class="card-text">From RS.599</p>
+  </div>
+</div>
+<!---card-10-->
+<div class="card card-item border border-0" style="width: 15rem;">
+  <img src="./img/card-img10.webp" class="card-img-top" alt="...">
+  <div class="card-icon  position-absolute mt-4 ">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <!-- <div class="card-review position-absolute text-light ps-1 mt-4 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div> -->
+
+  <div class="card-review position-absolute text-light w-25 mt-3 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Dylan Blue EDP For Her</h5>
+    <p class="card-text">From RS.899</p>
+  </div>
+</div>
+</div>
+
+<h5 class="text-center fs-6 text-center1"><a  id="btn1" href="">VIEW ALL</a></h5>
+<hr>
+</div>
+
+<!--shop gift sets--->
+
+<div class="container-fuild">
+  <p class="text-center fs-6">Shop Gift Sets</p>
+    <div class="card-head d-flex gap-4 justify-content-center fs-3">
+    <p id="card-men">FOR HER</p>
+    <P>FOR HIM</P>
+   </div>
+
+   <div class="card-main  d-flex justify-content-center gap-4 flex-wrap ">
+<div class="card border border-0 " style="width: 15rem;">
+  <img src="./img/perfume gift-1.webp" class="card-img-top bg-none" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute  text-light px-1 mt-3 text-center">
+       <p>Bestseller</p>
+  </div>
+  
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal EDT</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.600</span>  <del class="text-danger">2000.00</del></p>
+  </div>
+</div>
+<!---card-2-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-2.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div>
+  <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div>
+  <div class="card-body text-center">
+    <h6 class="card-title fs-6">Versace Bright Crystal EDT</h6>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.700</span>  <del class="text-danger">900.00</del></p>
+  </div>
+</div>
+<!---card-3-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-3.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 bg-info ">
+       <p>Tranding </p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.1599</span>  <del class="text-danger">2000.00</del></p>
+  </div>
+</div>
+<!---card-4-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-4.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+</div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 bg-success">
+       <p>SALES</p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.1890</span>  <del class="text-danger">2500.00</del></p>
+  </div>
+</div>
+<!---card-5-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-5.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 bg-secondary ">
+       <p>Soldout</p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.1200</span>  <del class="text-danger">1800.00</del><p>
+  </div>
+</div>
+<!---card-6-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-6.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div>
+  <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div>
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.1500</span>  <del class="text-danger">2300.00</del></p>
+  </div>
+</div>
+<!---card-7-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-7.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 bg-success ">
+       <p>  SALES</p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.300</span>  <del class="text-danger">800.00</del></p>
+  </div>
+</div>
+<!---card-8-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-8.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 bg-secondary">
+       <p>SoldOut</p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.2000</span>  <del class="text-danger">2800.00</del></p>
+  </div>
+</div>
+<!---card-9-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-9.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute text-light px-1 mt-3 text-center ms-3 bg-info ">
+       <p>Tranding</p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h5 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h5>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.1700</span>  <del class="text-danger">2300.00</del></p>
+  </div>
+</div>
+<!---card-10-->
+<div class="card border border-0" style="width: 15rem;">
+  <img src="./img/perfume gift-10.webp" class="card-img-top" alt="...">
+  <div class="card-icon position-absolute mt-4">    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+  </div>
+
+  <div class="card-review position-absolute  text-light px-1 mt-3 text-center ms-3 ">
+       <p>Bestseller</p>
+  </div>
+  <!-- <div class="card-review position-absolute text-light w-25 mt-5 text-center bg-secondary ms-3" id="review1">
+       <p>Soldout</p>
+  </div> -->
+  <div class="card-body text-center">
+    <h6 class="card-title fs-6 ">Versace Bright Crystal Absolu EDP</h6>
+    <p class="card-text text-secondary"><span class="text-success fs-5">RS.4000</span>  <del class="text-danger">5000.00</del></p>
+  </div>
+</div>
+
+
+</div>
+</div>
+<h5 class="text-center fs-6 text-center1"><a  id="btn1" href="">VIEW ALL</a></h5>
+
+<!--three part-->
+
+<!----sevan part-->
+
+<div class="container-fuild pexsel text-center">
+  <div class="pexsel-text  ">
+    <h5 class="text-center fs-3 fw-bold text-center">PERFUME MAINTENMENT</h5>
+<p class=" fw-bolder text-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit maxime illum excepturi
+   sed nesciunt error ex consectetur sequi ratione? Consequuntur, sunt. Quod necessitatibus assumenda veniam nemo eum
+    qui dolores. Culpa quasi nostrum veniam assumenda perspiciatis libero error corporis? Officiis quibusdam omnis
+     fugiat sapiente earum illum iusto inventore, sunt voluptas dignissimos accusantium, eum voluptatem consequatur 
+     commodi tempore at vel esse distinctio voluptates porro. Distinctio nostrum ratione saepe
+      quod, fugit voluptatibus! Fugit molestias odit ipsam 
+     nihil sint! Ad, eum. Veritatis enim possimus at magnam illo. 
+  Eligendi expedita ab doloremque impedit exercitationem. Deserunt beatae,
+   tenetur ducimus iusto blanditiis neque impedit ipsa adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat doloremque exercitationem nobis est rem ipsa dolorum quaerat suscipit cum ipsam culpa, corporis minima hic dolores quas iste architecto fugit explicabo tempora reprehenderit laudantium soluta quia! Cum asperiores fugit 
+   velit accusantium, illum aut cumque laborum numquam at perspiciatis sapiente consequatur.</p>
+</div>.
+
+
+</div>
+
+
+
+<hr>
+
+<!--four part-->
+
+<div class="container-fuild ">
+   
+<p class="text-center">Featured collection</p>
+<h5 class="text-center">
+First Rain Collection - Nature Inspired Long lasting Perfumes
+</h5>
+   <div class="card-main  d-flex justify-content-center gap-4 flex-wrap mt-5 ">
+<div class="cardd border border-0 ">
+  <div class="image-box"  style="width: 20rem;">
+  <img src="./img/four-img-1.webp" class="card-img-top bg-none image-item " id="img-back" alt="...">
+  <img src="./img/four-img-2.webp" alt=""  class="image-item" id="img-front">
+</div>
+   <div class="card-body card-body4">
+    <h5 class="card-title fs-6 text-center ">FOREST RAIN PERFUME</h5>
+    <p class="card-text text-center">INR 2,900</p>
+</div> 
+</div>
+<div class="cardd border border-0 ">
+  <div class="image-box"  style="width: 20rem;">
+  <img src="./img/four-img-5.webp" class="card-img-top bg-none image-item " id="img-back" alt="...">
+  <img src="./img/four-img-3.webp" alt="" class="image-item" id="img-front">
+</div>
+   <div class="card-body card-body4">
+    <h5 class="card-title fs-6 text-center">RAIN KISSED ROSE PERFUME</h5>
+    <p class="card-text text-center">INR 2,800</p>
+</div> 
+</div>
+<div class="cardd border border-0 ">
+  <div class="image-box"  style="width: 20rem;">
+  <img src="./img/four-img-7.webp" class="card-img-top bg-none image-item " id="img-back" alt="...">
+  <img src="./img/four-img-6.webp" alt=""  class="image-item" id="img-front">
+</div>
+   <div class="card-body card-body4">
+    <h5 class="card-title fs-6 text-center ">LAVENDER RAIN PERFUME</h5>
+    <p class="card-text text-center">INR 2,900</p>
+</div> 
+</div>
+<div class="cardd border border-0 ">
+  <div class="image-box"  style="width: 20rem;">
+  <img src="./img/four-img-9.webp" class="card-img-top bg-none image-item " id="img-back" alt="...">
+  <img src="./img/four-img-8.webp" alt=""  class="image-item" id="img-front">
+</div>
+   <div class="card-body card-body4">
+    <h5 class="card-title fs-6 text-center">FIRST RAIN-PERFUME MINIS</h5>
+    <p class="card-text text-center">INR 800</p>
+</div>
+</div>
+</div>
+
+<h5 class="text-center fs-6 text-center1"><a  id="btn1" href="">VIEW ALL</a></h5>
+<hr>
+
+
+<!---five part-->
+
+<div id="perfumeCarousel" class="carousel slide" data-bs-ride="carousel">
+
+ 
+<!----six part-->
+
+<div class="container py-5">
+  <p>EXPLORE NOW</p>
+
+  <h3>Shop By Notes</h3>
+  <P>Browse our collections by different notes and categories</P>
+  
+  <div id="notesCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="row text-center">
+          <div class="col">
+            <img src="img/apple-img1.webp" class="rounded-circle" width="150" height="150">
+            <p id="text">APPLE</p>
+                        <!-- <a class="ps-4 text-center pe-4 btn " id="button">Explore</a> -->
+
+          </div>
+          <div class="col">
+            <img src="img/apple-2.webp" class="rounded-circle" width="150" height="150">
+            <p id="text">CINNAMON</p>
+                        <!-- <a class="ps-4 text-center pe-4 btn " id="button">Explore</a> -->
+
+          </div>
+          <div class="col">
+            <img src="img/berries-3.webp" class="rounded-circle"width="150" height="150">
+            <p id="text">BERRIES</p>
+                        <!-- <a class="ps-4 text-center pe-4 btn " id="button">Explore</a> -->
+
+          </div>
+          <div class="col">
+            <img src="img/cinnamon1.webp" class="rounded-circle"width="150" height="150">
+            <p id="text">ANISE</p>
+                        <!-- <a class="ps-4 text-center pe-4 btn " id="button">Explore</a> -->
+
+          </div>
+
+          <div class="col">
+            <img src="img/citrus1.webp" class="rounded-circle" width="150" height="150">
+            <p id="text">CITRUS</p>
+                        <!-- <a class="ps-4 text-center pe-4 btn " id="button">Explore</a> -->
+
+          </div>
+          <div class="col">
+            <img src="img/fresh1.webp" class="rounded-circle" width="150" height="150">
+            <p id="text">FRESH</p>
+                        <!-- <a class="ps-4 text-center pe-4 btn " id="button">Explore</a> -->
+
+          </div>
+          <div class="col">
+            <img src="img/fruity1.webp" class="rounded-circle" width="150" height="150">
+            <p id="text">FRUITY</p>
+                        <!-- <a class="ps-4 text-center pe-4 btn " id="button">Explore</a> -->
+
+          </div>
+          
+        </div>
+      </div>
+
+     
+
+    </div>
+
+  
+
+  </div>
+
+</div> 
+
+<!-------------------------------------------------------------------------------->
+
+<h3 class="text-center ">Most Populoar</h3>
+<p class="text-center " >Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sapiente doloremque similique sequi, dignissimos nihil cumque, quis suscipit doloribus molestiae harum eligendi non minus neque ut in nobis pariatur dolores minima enim quos hic mollitia esse?
+   Ratione, consectetur! Magnam veniam atque ex accusantium numquam sed quae ipsa, eum harum? Perspiciatis. consectetur adipisicing elit. Iure, excepturi?</p>
+<div class="container-fuild d-flex justify-content-center gap-3 flex-wrap">
+
+<div class="notes ">
+<div class="card border-0 card-note">
+<img src="./img/pexesel img-1.jpg " class=" note-img" alt="">
+<div class="card-body text-center body-note">
+  <p class="lorem fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Fugiat nobis odio sed accusamus, dignissimos error autem illum reiciendis aliquid praesentium at quasi quaerat commodi expedita mollitia eos voluptas sit! Maiores ut porro id aliquam reiciendis fugiat fuga velit cupiditate sed, ad voluptates eligendi sunt illum quae architecto odit beatae perspiciatis quos mollitia
+     doloribus possimus facere voluptatibus quo nobis! Doloribus amet minus deleniti at quis tenetur cumque labore repudiandae dolorem tempora.</p>
+  <a class="ps-4 text-center pe-4 btn fs-5 fw-bolder text-light mt-5" id="note-text">Explore</a>
+
+</div>
+</div>
+
+</div>
+<div class="notes ">
+<div class="card border-0 card-note">
+<img src="./img/pexels-img-2.jpg " class=" note-img" alt="" style="height: 530px;">
+<div class="card-body text-center body-note">
+  <p class="lorem fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Fugiat nobis odio sed accusamus, dignissimos error autem illum reiciendis aliquid praesentium at quasi quaerat commodi expedita mollitia eos voluptas sit! Maiores ut porro id aliquam reiciendis fugiat fuga velit cupiditate sed, ad voluptates eligendi sunt illum quae architecto odit beatae perspiciatis quos mollitia
+     doloribus possimus facere voluptatibus quo nobis! Doloribus amet minus deleniti at quis tenetur cumque labore repudiandae dolorem tempora.</p>
+  <a class="ps-4 text-center pe-4 btn fs-5 fw-bolder text-light mt-5" id="note-text">Explore</a>
+
+</div>
+</div>
+
+</div>
+<div class="notes ">
+<div class="card border-0 card-note">
+<img src="./img/pexels-img-3.jpg " class=" note-img" alt="" style="height: 529px; object-fit: cover;">
+<div class="card-body text-center body-note">
+  <p class="lorem fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Fugiat nobis odio sed accusamus, dignissimos error autem illum reiciendis aliquid praesentium at quasi quaerat commodi expedita mollitia eos voluptas sit! Maiores ut porro id aliquam reiciendis fugiat fuga velit cupiditate sed, ad voluptates eligendi sunt illum quae architecto odit beatae perspiciatis quos mollitia
+     doloribus possimus facere voluptatibus quo nobis! Doloribus amet minus deleniti at quis tenetur cumque labore repudiandae dolorem tempora.</p>
+  <a class="ps-4 text-center pe-4 btn fs-5 fw-bolder text-light mt-5" id="note-text">Explore</a>
+
+</div>
+</div>
+
+</div>
+<div class="notes ">
+<div class="card border-0 card-note">
+<img src="./img/pexels-img-4.jpg " class=" note-img" alt="">
+<div class="card-body text-center body-note">
+  <p class="lorem fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Fugiat nobis odio sed accusamus, dignissimos error autem illum reiciendis aliquid praesentium at quasi quaerat commodi expedita mollitia eos voluptas sit! Maiores ut porro id aliquam reiciendis fugiat fuga velit cupiditate sed, ad voluptates eligendi sunt illum quae architecto odit beatae perspiciatis quos mollitia
+     doloribus possimus facere voluptatibus quo nobis! Doloribus amet minus deleniti at quis tenetur cumque labore repudiandae dolorem tempora.</p>
+  <a class="ps-4 text-center pe-4 btn fs-5 fw-bolder text-light mt-5" id="note-text">Explore</a>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+       <!-- Footer -->
+<footer class="text-center text-lg-start   text-light mt-5  " id="section" >
+
+  <!-- Section: Social media -->
+  <section class="text-center justify-content-lg-between p-4 border-bottom " >
+
+    <!-- Left -->
+    <div class=" d-none d-lg-block fw-bolder">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+
+   
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class=""  id="section">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>My Perfume Shop
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Cancellation and Refund Policy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Privacy policy</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Home Fragrance</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Designer Perfume</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> India, IN 10012,</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            myperfumeshop.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +91 9058489856</p>
+          <p><i class="fas fa-print me-3"></i> +91 9074276526</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+       <div class="container d-flex justify-content-center   col-md-2 col-lg-3 col-xl-3 ">
+     
+         <input type="email" class="ps-3 g-2  rounded-4 border border-0 p-1 " placeholder="Email" style="width: 15rem;" >
+          <button class="p-1 btn text-light border border-2 rounded-4 ps-4 pe-3  button"id="section1">Subscripsion</button>
+
+
+     
+     </div>
+     
+
+
+  </section>
+
+
+
+
+   <!-- Right -->
+
+    <div class="" >
+      <div class="text-center p-4">
+      <a href="" class="me-4 text-light ">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-light ">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-light ">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-light ">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-light ">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-light ">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    </div>
+    <!-- Right -->
+
+
+
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center text-light p-4" >
+    © 2026 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+  </div>
+
+
+
+   
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

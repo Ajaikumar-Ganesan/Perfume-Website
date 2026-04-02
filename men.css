@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Cormorant Garamond";
+}
+
+
+
+.navbar-nav .icons li{
+    list-style: none;
+
+}
+
+/* carosel start*/
+  
+#carouselExampleCaptions img{
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+/*.carosel-text btn*/
+/* .carosel-text{
+    margin-left: 200px;
+    top: 12rem;
+
+}
+#btn2{
+    
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    color: white;
+    position: relative;
+    background: transparent;
+    overflow: hidden ;
+    width: 10%;
+    border: 1px solid white;
+    z-index: 1;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#btn2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:black ;
+    transition: 0.5s linear;
+    z-index: -1;
+}
+#btn2:hover::before{
+    width: 0;
+    
+}
+#btn2:hover{
+    color: black;
+} */
+
+.carousel-inner1{
+    background-image: url(./img/ChatGPT\ man.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.carosel-text{
+    margin-left: 500px;
+}
+
+.nav-item  #active{
+    border-bottom: 1px solid red;
+}
+.nav-item .nav-link{
+    text-transform: uppercase;
+    font-size: 13px;
+
+    border: none;
+    transition:none;
+}
+.nav-item .nav-link:hover{
+     border-bottom: 1px solid teal;
+    transition: 0.5s linear;
+}
+
+/*bestseller*/
+.card-main span{
+    color: darkred ;
+}
+.card-item{
+   box-shadow: 20px 10px 20px black;
+   cursor: pointer;
+   object-fit: cover;
+}
+.card-item:hover{
+     transition: 0.1s ease; 
+    transform: scale(1.01);
+}
+.card-review{
+    background-color: red;
+    height: 15px;
+    letter-spacing: 0.1rem;
+    font-size: 10px;
+    left: 10px;
+}
+#review1{
+    width: 20px;
+    letter-spacing: 0.1rem;
+    top: -12px;
+}
+
+.card-icon{
+  left: 200px;
+  cursor: pointer;
+  color: blue;
+}
+.card-icon:hover{
+    color: red; 
+}
+
+.star {
+    color: tomato;
+}
+.card-item button{
+    background-color: darkred;
+    transition: 0.02 ease;
+
+}
+
+
+
+/*footer Area*/
+
+
+#section{
+    background-color: darkred;
+}
+
+
+
+#section1:hover{
+    background: orangered;
+   
+}
+
+
+/* .card-button-main button:hover{
+    background-color: #0d6efd;
+} */

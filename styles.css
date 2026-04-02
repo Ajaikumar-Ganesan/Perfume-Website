@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Manrope:wght@200..800&family=Monsieur+La+Doulaise&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Cormorant Garamond";
+}
+
+
+
+.navbar-nav .icons li{
+    list-style: none;
+
+}
+
+/* carosel start*/
+  
+#carouselExampleCaptions img{
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+/*.carosel-text btn*/
+.carosel-text{
+    margin-left: 200px;
+    top: 12rem;
+
+}
+#btn2{
+    
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    color: black;
+    position: relative;
+    background: transparent;
+    overflow: hidden ;
+    width: 10%;
+    border: 1px solid white;
+    z-index: 1;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#btn2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:white ;
+    transition: 0.5s linear;
+    z-index: -1;
+}
+#btn2:hover::before{
+    width: 0;
+    
+}
+#btn2:hover{
+    color: white;
+}
+/*.carosel-text btn end*/
+
+.carousel-inner1{
+    background-image: url(./img/pin-img-2.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+.nav-item  #active{
+    border-bottom: 1px solid red;
+}
+.nav-item .nav-link{
+    text-transform: uppercase;
+    font-size: 13px;
+
+    border: none;
+    transition:none;
+}
+.nav-item .nav-link:hover{
+     border-bottom: 1px solid teal;
+    transition: 0.5s linear;
+}
+
+/*card-bg*/
+
+#card-men{
+    border-bottom: 2px solid black;
+}
+
+.card-item img:hover{
+      transform: scale(1.05);
+}
+
+.card-item{
+
+  box-sizing: border-box;
+  /* width: 190px;
+  height: 254px; */
+  background: rgba(247, 41, 41, 0.58);
+  border: 2px solid black;
+  /* box-shadow: 12px 170px 100px rgba(0, 0, 0, 0.22); */
+  backdrop-filter: blur(6px);
+  border-radius: 17rem;
+  /* text-align: center; */
+  cursor: pointer;
+  transition: 0.5s ease;
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+  /* user-select: none; */
+  font-weight: bolder;
+  color: black;
+}
+
+.card-item:hover {
+  border: 2px solid black;
+  transform: scale(1.05);
+}
+
+
+.card-icon{
+  left: 200px;
+  cursor: pointer;
+}
+.card-icon:hover{
+    color: blue; 
+}
+
+.card-review{
+    background-color: rgb(15, 15, 199);
+    height: 15px;
+    letter-spacing: 0.1rem;
+    font-size: 10px;
+    left: 10px;
+}
+#review1{
+    width: 20px;
+    letter-spacing: 0.1rem;
+    top: -14px;
+}
+#btn1{
+    
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+    position: relative;
+    background: transparent;
+    overflow: hidden ;
+    width: 10%;
+    border: 1px solid black;
+    z-index: 1;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#btn1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 157, 255) ;
+    transition: 0.5s linear;
+    z-index: -1;
+}
+#btn1:hover::before{
+    width: 0;
+    
+}
+#btn1:hover{
+    color: black;
+}
+.text-center1{
+    margin-top: 70px;
+
+}
+
+/*shop gift*/
+.card1{
+    
+   width: 190px;
+  height: 254px; 
+   text-align: center; 
+  cursor: pointer;
+  transition: all 0.5s;
+   /* display: flex; */
+  align-items: center; 
+   /* justify-content: center;  */
+   user-select: none; 
+  font-weight: bolder;
+  color: black;
+}
+.card-text{
+   font-size: 17px;
+}
+.card-title{
+   font-size: 17px;
+
+}
+
+/*three part*/
+.three-img{
+    width: 80%;
+    box-shadow: 16px 10px 20px white;
+    transition: transform 0.4s ease;
+    
+}
+.three-img:hover{
+     transform: scale(1.03); 
+}
+.container .row .three-1{
+    margin-top: 60px;
+    text-align: justify;
+}
+.container{
+    border-radius: 1rem;
+}
+
+/*---------------four part--------------------------------*/
+.card-main .card-body4{
+    margin-top: 340px;
+}
+.image-box {
+  /* width: 300px;
+  height: 200px; */
+  position: relative;
+}
+
+.image-box .image-item {
+   width: 100%; 
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Second image-a normal-a maraichu veikanum*/ 
+#img-back {
+  opacity: 0;
+}
+
+/* Hover pannum pothu first image-a maraichuttu second-a kaatanum */
+.image-box:hover #img-front {
+  opacity: 0;
+}
+
+.image-box:hover #img-back {
+  opacity: 1;
+} 
+
+/*five part*/
+
+.rounded-circle{
+    transition: 0.5s ease;
+    cursor: pointer;
+         opacity: 1;
+   
+}
+
+.rounded-circle:hover{
+     transform: scale(1.1);
+
+    
+    
+}
+
+ #btn2{
+    
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+    position: relative;
+    background: transparent;
+    overflow: hidden ;
+    width: 10%;
+    border: 1px solid black;
+    z-index: 1;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#btn2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 157, 255) ;
+    transition: 0.5s linear;
+    z-index: -1;
+}
+#btn2:hover::before{
+    width: 0;
+    
+}
+#btn2:hover{
+    color: black;
+}
+#button{
+    font-weight: bolder;
+    text-decoration: none;
+    border: 1px solid;
+}
+
+#button:hover{
+    background-color: thistle;
+}
+#text{
+    font-family:  "Copse", serif;;
+}
+/*sevan part*/
+#note-text{
+ cursor: pointer;
+ border-left: 2px solid white;
+ border-right: 2px solid white;
+}
+#note-text:hover{
+    border-top: 2px solid white;
+     border-bottom: 2px solid white;
+
+      border-left:none;
+ border-right: none;
+}
+
+.card-bodybg{
+    background-color: aqua;
+    width: 22rem;
+}
+.pexsel-text h5{
+    color: white;
+}
+
+
+
+/*---------------------------------------------------google*/
+
+/* Image container-ah relative-ah veikanum */
+  .card-note {
+    position: relative;
+    width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  /* Image full width cover aagurathuku */
+  .note-img {
+    display: block;
+    width: 100%;
+  transition: 0.5s ease;
+  border-radius: 5rem 0rem 5rem 0rem;
+  }
+
+  /* Text-ah image mela align panna absolute use panrom */
+  .body-note {
+    position: absolute;
+    top: 50%; /* Melaiyirundhu naduvula */
+    left: 50%; /* Idathupakkathilirundhu naduvula */
+    transform: translate(-50%, -50%); /* Exact center-ku kondu vara */
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.4);
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: 0.5s ease;
+  
+  }
+  .lorem{
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 14px;
+
+  }
+  .card-note:hover .body-note{
+    opacity: 1;
+  }
+  .card-note:hover .note-img{
+    transform: scale(1.1);
+  }
+
+  /* ---------------------------------------sevan part*/
+
+  .pexsel{
+    margin-top: 50px;
+    background-image: url(./img/pin-img-3\ \(2\).png);
+    width: 100%;
+    /* filter: brightness(0.60); */
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    background-attachment: fixed;
+  }
+
+  /*eit part*/
+
+
+  .pexsel-text{
+    position: relative;
+
+  }
+   .pexsel-text:first-child{
+    padding-top: 100px;
+   }
+    
+  #section{
+    background-color: darkred;
+}
+
+
+
+#section1:hover{
+    background: orangered;
+   
+}
+
+
+
+
+
+
+ 
+body{
+     background-image: url(./img/slider-bottom.png);
+ width: 100%;
+ height: 60vh;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.body{
+ margin-top: 40px;
+
+}
+/*
+.text-head{
+    font-family:  "Great Vibes", cursive;
+}
+
+*/
+.social a{
+    background: darkred;
+    color: white;
+}
+.social a:hover{
+    border: 2px solid white;
+    color:white;
+
+}
+.login{
+    width: 100px;
+    height: 480px;
+}
+
+.login{
+    background-image: url(./img/login\ perfume\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);
+    
+
+}
+
+.input{
+    width: 70%;
+   border-radius: 0.6rem;
+    background: none;
+   filter: brightness(100);
+}
+
+
+
+
+
+  
+ /* women---------------- */
+
+
+/* items----------------------- */
+.div{
+    /* background-color: #A8EB12; */
+    width: 70%;
+        box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    
+}
+ .container .item-1{
+    background-image: url(./img/green-per-removebg-preview.png);
+    width: 50%;
+    height: 70vh;
+    background-position: center; 
+    background-size: cover;
+    object-fit: cover;
+
+   
+ }
+ /* mint-lef */
+
+ .container .row1 img{
+    width: 140px;
+    padding:10px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
+     border-radius: 30px;
+     box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+ }
+
+ .line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+ }
+ .start{
+    border-bottom: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(61, 59, 59);
+ }
+  .start:hover{
+      color: green;
+  }
+  .item-footer{
+    margin-top: 600px;
+  }
+
+
+
+
+
+
+
+ 
+
+
